@@ -71,6 +71,14 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Sistema de Triage Inteligente",
+    description:
+      "Plataforma de apoyo a la clasificación de pacientes en urgencias: chatbot de intake, clasificación con un modelo Random Forest (scikit-learn), índice de complejidad inspirado en TISS-28 y dashboard en tiempo real vía WebSocket. Backend en FastAPI con SQLAlchemy, 12 tests con pytest.",
+    tags: ["Python", "FastAPI", "React", "Machine Learning", "SQLAlchemy"],
+    repo: "https://github.com/Estiven-29/triage-system",
+    image: "/projects/triage.jpg",
+  },
+  {
     title: "Reconocimiento de Gestos para Accesibilidad",
     description:
       "Aplicación que usa visión por computador para reconocer gestos de mano en tiempo real y traducirlos en acciones (clic, scroll, arrastrar), facilitando el acceso a personas con movilidad reducida.",
